@@ -1,3 +1,10 @@
+:root {
+  --primary: #6320ee;
+  --secondary: #8075ff;
+  --lighttext: #f8f0fb;
+  --offblack: #211a1d;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,38 +12,33 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  background-color: #FBFEF9;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.navbar-brand {
+  background-image: linear-gradient(45deg, var(--secondary), var(--primary));
+  border-radius: 0px 10px 10px 0px;
+  color: #fff;
 }
 
 .card {
-  padding: 2em;
+  border: none;
+  border-style: none;
 }
 
-.read-the-docs {
-  color: #888;
+.skill-card {
+  height: 100px;
+  background-color: var(--offblack);
+  border-radius: 10px;
+  border-color: none;
+}
+
+.skill-card p,
+.skill-card h4 {
+  text-shadow: 2px 2px 8px black;
+}
+
+.skill-card.complete {
+  background-image: linear-gradient(45deg, var(--primary), var(--secondary));
 }
