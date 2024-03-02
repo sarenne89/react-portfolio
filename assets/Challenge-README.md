@@ -21,12 +21,12 @@ Remember, "good" design is subjective. Your site should look "polished" and "pro
 ### Base Requirements
 
 * Technologies that must be used:
-  * [ ] React
+  * [✅] React
   * [ ] Navigation with `React Router`, dynamic rendering, or another third part router
 * Your portfolio **must contain** the following information:
-  * [ ] Your name
+  * [✅] Your name
   * [ ] Links to your:
-    * [ ] GitHub Profile
+    * [✅] GitHub Profile
     * [ ] LinkedIn Page
     * [ ] Email Address
     * [ ] Phone Number - (optional)
@@ -50,8 +50,8 @@ Remember, "good" design is subjective. Your site should look "polished" and "pro
 
 ### Required Component Content
 
-* [ ] App:
-  * [ ] Must be your top level component and render all necessary children components
+* [✅] App:
+  * [✅] Must be your top level component and render all necessary children components
 * [ ] Header:
   * [ ] Must be rendered across the entire site
   * [ ] Must Contain a Navbar

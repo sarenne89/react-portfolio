@@ -1,0 +1,5 @@
+.hero-banner {
+    background-image: url("../assets/img/profile.jpg");
+    height: 100dvh;
+    background-repeat: no-repeat;
+}
