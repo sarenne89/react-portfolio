@@ -12,3 +12,11 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
+
+.btn-primary {
+  background-color: var(--secondary) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary) !important;
+}

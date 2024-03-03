@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function About() {
     return (
@@ -13,7 +14,13 @@ function About() {
                         team and independently using own initiative. A strong work ethic, ability to work under pressure
                         and effective in building and maintaining relationships with employees and management at all
                         levels within an organisation, expressing confidence and ability to manage expectations and
-                        workloads.</p>
+                        workloads.
+                    </p>
+                    <Link to="/skills">
+                        <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">
+                            Check my skills
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

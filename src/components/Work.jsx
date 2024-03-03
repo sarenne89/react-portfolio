@@ -1,112 +1,35 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "../styles/Work.css"
+const projects = require("Projects.json")
 
-const projects = {
-    assignment1: {
-        name: "Accessible HTML",
-        id: "1",
-        description: "",
-        githubURL: "https://github.com/sarenne89/Accessible-HTML",
-        deployedURL: "https://sarenne89.github.io/Accessible-HTML",
-        score: "99%",
-    },
-    assignment2: {
-        name: "Flex-Grid Portfolio",
-        id: "2",
-        description: "",
-        githubURL: "https://github.com/sarenne89/Flex-Grid-Portfolio",
-        deployedURL: "https://sarenne89.github.io/Flex-Grid-Portfolio",
-        score: "100%",
-    },
-    assignment3: {
-        name: "Bootstrap Portfolio",
-        id: "3",
-        description: "",
-        githubURL: "https://github.com/sarenne89/bootstrap-portfolio",
-        deployedURL: "https://sarenne89.github.io/bootstrap-portfolio",
-        score: "100%",
-    },
-    assignment4: {
-        name: "Console Finances",
-        id: "4",
-        description: "",
-        githubURL: "https://github.com/sarenne89/Console-Finances",
-        deployedURL: "https://sarenne89.github.io/Console-Finances",
-        score: "100%",
-    },
-    assignment5: {
-        name: "Password Generator",
-        id: "5",
-        description: "",
-        githubURL: "https://github.com/sarenne89/Password-Generator",
-        deployedURL: "https://sarenne89.github.io/Password-Generator",
-        score: "100%",
-    },
-    assignment6: {
-        name: "Coding Quiz",
-        id: "6",
-        description: "",
-        githubURL: "https://github.com/sarenne89/Coding-Quiz",
-        deployedURL: "https://sarenne89.github.io/Coding-Quiz",
-        score: "100%",
-    },
-    assignment7: {
-        name: "Planner App",
-        id: "7",
-        description: "",
-        githubURL: "https://github.com/sarenne89/Planner-App",
-        deployedURL: "https://sarenne89.github.io/Planner-App",
-        score: "100%",
-    },
-    assignment8: {
-        name: "Weather Dashboard",
-        id: "8",
-        description: "",
-        githubURL: "https://github.com/sarenne89/Weather-Dashboard",
-        deployedURL: "https://sarenne89.github.io/Weather-Dashboard",
-        score: "100%",
-    },
-    project1: {
-        name: "Project 1 - Things To Do In My City",
-        id: "9",
-        description: "",
-        githubURL: "https://github.com/sarenne89/TTDIMC",
-        deployedURL: "https://sarenne89.github.io/TTDIMC",
-        score: "97%",
-    },
-    assignment9: {
-        name: "README Generator",
-        id: "10",
-        description: "",
-        githubURL: "https://github.com/sarenne89/README-Generator",
-        deployedURL: "",
-        score: "100%",
-    },
-    assignment10: {
-        name: "Team Profile Generator",
-        id: "11",
-        description: "",
-        githubURL: "https://github.com/sarenne89/team-profile-generator",
-        deployedURL: "",
-        score: "87%",
-    },
-    assignment11: {
-        name: "React Portfolio",
-        id: "12",
-        description: "",
-        githubURL: "https://github.com/sarenne89/react-portfolio",
-        deployedURL: "",
-        score: "",
-    }
+export default function Work() {
+    const projectListItems = projects.map(project =>
+        <li>
+            <div className="card p-3 row mb-3 shadow">
+                <div className="col-md-6">
+                    <h5 className="display-5">{project.name}</h5>
+                    <h5>Grade: {project.score}</h5>
+                    <p className="lead">{project.description}</p>
+                    <div>
+                        <Link to={project.deployedURL} target="_blank">
+                            <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">
+                                Live Link
+                            </button>
+                        </Link>
+                        <Link to={project.githubURL} target="_blank">
+                            <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">
+                                Github Link
+                            </button>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+        </li>
+    )
+    return (
+        <div className="container-fluid p-3 list-unstyled">
+            <ul>{projectListItems}</ul>
+        </div>
+    )
 }
-
-const Work = () => {
-    for (let i = 0; i < projects.length; i++) {
-        const project = projects[i];
-        console.log(project)
-    
-    }
-}
-Work();
-
-export default Work
