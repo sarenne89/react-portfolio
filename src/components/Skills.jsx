@@ -3,7 +3,7 @@ import "../styles/Skills.css"
 
 function Skills() {
     return (
-        <section className="container-fluid" id="skills">
+        <section className="container-fluid p-3" id="skills">
             <div className="row">
                 <div className="card col-12">
                     <div className="row justify-content-center align-items-center">
