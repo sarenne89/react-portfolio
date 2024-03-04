@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import "../styles/Work.css"
-const projects = require("Projects.json")
+import projects from "./Projects.json"
 
 export default function Work() {
     const projectListItems = projects.map(project =>
         <li>
-            <div className="card p-3 row mb-3 shadow">
-                <div className="col-md-6">
+            <div className="row flex-lg align-items-center g-5 py-5 my-5">
+                <div className="col-lg-6">
                     <h5 className="display-5">{project.name}</h5>
                     <h5>Grade: {project.score}</h5>
                     <p className="lead">{project.description}</p>
@@ -24,7 +24,11 @@ export default function Work() {
                         </Link>
                     </div>
                 </div>
+                <div className="col-10 col-sm-8 col-lg-6 img-fluid">
+                    <img className="d-block mx-lg-auto img-fluid" src={project.imgPath} alt="A screenshot from this project" />
+                </div>
             </div>
+            <div className="divider m-0 p-0"></div>
         </li>
     )
     return (
