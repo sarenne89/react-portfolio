@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import profilePhoto from '../assets/img/profile.jpg'
 
 function About() {
     return (
         <div className="container-fluid p-3">
             <div className="row flex-lg-row-reverse align-items-center g-5 p-2">
                 <div className="col-10 col-sm-8 col-lg-6">
-                    <img src={profilePhoto} className="d-block mx-lg-auto img-fluid" alt="A profile picture of Matt Dunmore" width="100%" height="100%" />
+                    <img src="img/profile.jpg" className="d-block mx-lg-auto img-fluid" alt="A profile picture of Matt Dunmore" width="100%" height="100%" />
                 </div>
                 <div className="col-lg-6">
                     <h1 className="display-5 fw-bold 1h-1 mb-3">//Matt Dunmore</h1>
