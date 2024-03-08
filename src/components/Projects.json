@@ -32,7 +32,7 @@
         "description": "In this first Javascript challenge, we were instructed to perform a set of operations on an array with a given dataset, and for the results to be output to the console in a particular format.",
         "githubURL": "https://github.com/sarenne89/Console-Finances",
         "deployedURL": "https://sarenne89.github.io/Console-Finances",
-        "imgPath": "./assets/img/console-finances.png",
+        "imgPath": "https://github.com/sarenne89/react-portfolio/blob/main/src/assets/img/console-finances.png?raw=true",
         "score": "100%"
     },
     {
@@ -41,7 +41,7 @@
         "description": "In this weeks challenge, we have been tasked with creating a responsive page with a password generator. The password should include 8-128 characters from lowercase, uppercase, numeric and special characters chosen at random by the generator. The method I chose for this challenge was to give the user a series of confirm/prompts, and to put the data from those decisions into an object. I then used that object to determine which arrays should be used to create the password, and put those selected arrays into a new array. The program then generates the requested number of random characters from this array. In order to ensure that at least one character is chosen from each array, I have put in checks that test whether a character type has been selected, and if so a character from that array is spliced in at a specific index. The new password array is then shuffled randomly before being joined into a new string and displayed for the user.",
         "githubURL": "https://github.com/sarenne89/Password-Generator",
         "deployedURL": "https://sarenne89.github.io/Password-Generator",
-        "imgPath": "./assets/img/password-generator.png",
+        "imgPath": "https://github.com/sarenne89/react-portfolio/blob/main/src/assets/img/password-generator.png?raw=true",
         "score": "100%"
     },
     {
