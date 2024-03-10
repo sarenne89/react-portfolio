@@ -5,8 +5,8 @@ function About() {
     return (
         <div className="container-fluid background d-flex justify-content-center align-items-center m-0">
             <div className="m-lg-5 col-10 p-lg-3 shadow-lg" loading="lazy" id="hero">
-                <div className="row flex-lg-row-reverse align-items-center g-5 p-2">
-                    <div className="col-10 col-sm-8 col-lg-6">
+                <div className="row flex-lg-row-reverse align-items-center p-5">
+                    <div className="container-fluid col-10 col-sm-8 col-lg-6">
                         <img src="img/profile.jpg" className="d-block mx-lg-auto img-fluid" alt="A profile picture of Matt Dunmore" width="100%" height="100%" />
                     </div>
                     <div className="col-lg-6">
