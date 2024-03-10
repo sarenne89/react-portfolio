@@ -1,11 +1,7 @@
-ul {
-    list-style-type: none;
-}
-
 .background {
     background-color: var(--background);
 }
 
-.project {
+#hero {
     background-color: var(--light);
 }

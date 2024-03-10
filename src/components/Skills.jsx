@@ -19,10 +19,10 @@ function printSkills() {
         </div>
         )
     return (
-        <section >
-            <div className="container-fluid p-3" id="frontendSkills">
+        <div className="d-flex-column justify-content-center background py-3">
+            <div className="container-fluid col-10 p-3 d-flex justify-content-center skillList shadow-lg my-2" id="frontendSkills">
                 <div className="row">
-                    <div className="card col-12">
+                    <div className="col-12">
                         <div className="row justify-content-center align-items-center">
                             <div className="col-12 col-lg-4">
                                 <h3 className="text-center py-5 display-5">Frontend Development Skills</h3>
@@ -36,9 +36,9 @@ function printSkills() {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid p-3" id="skills">
+            <div className="container-fluid col-10 p-3 d-flex justify-content-center skillList my-5 shadow-lg" id="skills">
                 <div className="row">
-                    <div className="card col-12">
+                    <div className="col-12">
                         <div className="row justify-content-center align-items-center">
                             <div className="col-12 col-lg-4">
                                 <h3 className="text-center py-5 display-5">Skills</h3>
@@ -52,7 +52,7 @@ function printSkills() {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

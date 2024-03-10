@@ -31,7 +31,7 @@ class Contact extends React.Component {
   }
   render() {
     return(
-        <div className="container-fluid m-5">
+        <div className="container-fluid m-5 col-10 justify-content-center">
             <h1 className="display-5">//Contact</h1>
             <div className="container-fluid">
                 <div className="row align-items-center text-center my-5">
