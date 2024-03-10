@@ -1,78 +1,39 @@
 [
     {
-        "week":"1",
-        "name": "HTML, CSS & GIT",
-        "complete": true
+        "id": "1",
+        "name": "Customer service experience"
     },
     {
-        "week":"2",
-        "name": "MORE CSS",
-        "complete": true
+        "id": "2",
+        "name": "Works well with others"
     },
     {
-        "week":"3",
-        "name": "UX & BOOTSTRAP",
-        "complete": true
+        "id": "3",
+        "name": "Empathetic"
     },
     {
-        "week":"4",
-        "name": "JS FUNDAMENTALS",
-        "complete": true
+        "id": "4",
+        "name": "Problem solving"
     },
     {
-        "week":"5",
-        "name": "INTERMEDIATE JS",
-        "complete": true
+        "id": "5",
+        "name": "Calm under pressure"
     },
     {
-        "week":"6",
-        "name": "WEB APIS",
-        "complete": true
+        "id": "6",
+        "name": "Technical Skills"
     },
     {
-        "week":"7",
-        "name": "3RD PARTY APIS",
-        "complete": true
+        "id": "7",
+        "name": "Driven to succeed"
     },
     {
-        "week":"8",
-        "name": "SERVER APIS",
-        "complete": true
+        "id": "8",
+        "name": "Keen to learn"
     },
     {
-        "week":"9",
-        "name": "PROJECT 1",
-        "complete": true
-    },
-    {
-        "week":"10",
-        "name": "ES6 & NODE.JS",
-        "complete": true
-    },
-    {
-        "week":"11",
-        "name": "TEST DRIVEN DEVELOPMENT",
-        "complete": true
-    },
-    {
-        "week":"12",
-        "name": "REACT",
-        "complete": true
-    },
-    {
-        "week":"13",
-        "name": "ADVANCED REACT"
-    },
-    {
-        "week":"14",
-        "name": "FINAL PROJECT"
-    },
-    {
-        "week":"15",
-        "name": "FINAL PROJECT"
-    },
-    {
-        "week":"16",
-        "name": "FINAL PROJECT"
+        "id": "10",
+        "name": "Full, clean UK Driving license"
+
     }
 ]

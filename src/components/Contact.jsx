@@ -35,12 +35,14 @@ class Contact extends React.Component {
             <h1 className="display-5">//Contact</h1>
             <div className="container-fluid">
                 <div className="row align-items-center text-center my-5">
-                  <div className="col-6">
-                      <a href="https://www.linkedin.com/in/matt-dunmore-082168250/"><i className="fa-brands fa-linkedin"></i>LinkedIn</a>
+                  <div className="col-4">
+                      <a target="_blank" href="https://www.linkedin.com/in/matt-dunmore-082168250/"><i className="fa-brands fa-linkedin fa-4x"></i></a>
                   </div>
-                  <div className="col-6">
-                      <a href="">
-                        <i className="fa-solid fa-envelope"></i>Email</a>
+                  <div className="col-4">
+                      <a target="_blank" href="https://www.github.com/sarenne89"><i className="fa-brands fa-github fa-4x"></i></a>
+                  </div>
+                  <div className="col-4">
+                      <a href="mailto: mdunmore89@gmail.com"><i className="fa-solid fa-envelope fa-4x"></i></a>
                   </div>
                 </div>
                 <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
