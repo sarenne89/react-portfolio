@@ -1,8 +1,7 @@
 .background {
     background-color: var(--background);
-    height: 100dvh;
 }
 
-.form {
+#hero {
     background-color: var(--light);
 }

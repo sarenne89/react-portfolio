@@ -1,0 +1,47 @@
+[
+    {
+        "id":"1",
+        "name": "HTML, CSS & GIT",
+        "complete": true
+    },
+    {
+        "id":"2",
+        "name": "UX & BOOTSTRAP",
+        "complete": true
+    },
+    {
+        "id":"3",
+        "name": "JAVASCRIPT",
+        "complete": true
+    },
+    {
+        "id":"4",
+        "name": "WEB APIS",
+        "complete": true
+    },
+    {
+        "id":"5",
+        "name": "3RD PARTY APIS",
+        "complete": true
+    },
+    {
+        "id":"6",
+        "name": "SERVER APIS",
+        "complete": true
+    },
+    {
+        "id":"7",
+        "name": "ES6 & NODE.JS",
+        "complete": true
+    },
+    {
+        "id":"8",
+        "name": "TEST DRIVEN DEVELOPMENT",
+        "complete": true
+    },
+    {
+        "id":"9",
+        "name": "REACTJS",
+        "complete": true
+    }
+]

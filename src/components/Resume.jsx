@@ -4,7 +4,7 @@ import "../styles/Resume.css"
 function Resume() {
     return (
         <div>
-            <iframe src="src/assets/Matt-CV-2024.pdf" width="100%" height="600px" />
+            <iframe src="cv/Matt-CV-2024.pdf" width="100%" height="800px" />
         </div>
         );
        };

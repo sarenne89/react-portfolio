@@ -1,12 +1,13 @@
 :root {
   --primary: #6320ee;
   --secondary: #8075ff;
-  --lighttext: #f8f0fb;
+  --light: #f8f0fb;
   --offblack: #211a1d;
+  --background: #828A95;
 }
 
 body {
-  background-color: #FBFEF9;
+  background-color: var(--background);
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
