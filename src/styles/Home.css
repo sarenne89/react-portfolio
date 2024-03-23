@@ -1,7 +1,3 @@
-.background {
-    background-color: var(--background);
-}
-
 #hero {
     background-color: var(--light);
 }

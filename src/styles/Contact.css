@@ -1,6 +1,6 @@
 .background {
     background-color: var(--background);
-    height: 100dvh;
+    height: 100%;
 }
 
 .form {
