@@ -96,6 +96,15 @@
         "githubURL": "https://github.com/sarenne89/team-profile-generator",
         "deployedURL": "",
         "imgPath": "img/team-generator-screenshot.png",
-        "score": "87%"
+        "score": "100%"
+    },
+    {
+        "name": "Yappa",
+        "id": "11",
+        "description": "Yappa is a lightweight instant messaging app created by myself and 3 other team members as our final project. It includes technologies such as Google OAuth for login, React, Axios, Socket.io, Node and Bootstrap.",
+        "githubURL": "https://github.com/dpaul93/Group-17-Project-2",
+        "deployedURL": "",
+        "imgPath": "https://github.com/dpaul93/Group-17-Project-2/blob/main/src/image/yappa_logo.png?raw=true",
+        "score": "91%"
     }
 ]
