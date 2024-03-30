@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function About() {
     return (
         <div className="container-fluid background d-flex justify-content-center align-items-center m-0">
-            <div className="m-lg-5 col-10 p-lg-3 shadow-lg" loading="lazy" id="hero">
+            <div className="m-5 col-10 p-lg-3 shadow-lg" loading="lazy" id="hero">
                 <div className="row flex-lg-row-reverse align-items-center p-5">
                     <div className="container-fluid col-10 col-sm-8 col-lg-6">
                         <img src="img/profile.jpg" className="d-block mx-lg-auto img-fluid" alt="A profile picture of Matt Dunmore" width="100%" height="100%" />
@@ -17,11 +17,13 @@ function About() {
                             levels within an organisation, expressing confidence and ability to manage expectations and
                             workloads.
                         </p>
-                        <Link to="/skills">
-                            <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">
-                                Check my skills
-                            </button>
-                        </Link>
+                        <div className="text-center mt-5">
+                            <Link to="/skills">
+                                <button type="button" className="btn btn-primary btn-lg px-4 me-md-2 text-center">
+                                    Check my skills
+                                </button>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
